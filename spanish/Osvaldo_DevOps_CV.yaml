@@ -1,0 +1,137 @@
+cv:
+  name: José Osvaldo Constantino Bautista
+  location: Santiago de Querétaro, México
+  email: joseconstantino987@gmail.com
+  phone: "+52 351 513 1829"
+  sections:
+    Resume:
+      - Ingeniero en Sistemas Computacionales especializado en **DevOps, Infraestructura y MLOps**. Con experiencia probada en el diseño e implementación de arquitecturas de monitoreo y observabilidad en tiempo real, automatización de infraestructura mediante pipelines CI/CD y administración segura de clústeres de Kubernetes. Enfocado en la alta disponibilidad de servicios, la entrega continua bajo la metodología GitOps y el robustecimiento de la seguridad de red.
+    education:
+      - institution: DEV.F
+        area: Master en Data Science con IA
+        degree: Bootcamp
+        date:
+        start_date: 2026-01
+        end_date: 2026-07
+        location: Remoto, México
+
+      - institution: Instituto Tecnológico de Morelia
+        area: Sistemas Computacionales
+        degree: Ingeniería 
+        date: 
+        start_date: 2021-01
+        end_date: 2025-12
+        location: Morelia, Michoacán
+        highlights:
+          - "Instructor del curso: Machine learning for Dummies (Marzo 2024)"
+          - "Miembro del capítulo IEEE Computer Society (Agosto 2022 – Julio 2025)"
+    skills:
+      - label: DevOps & GitOps
+        details: Kubernetes, Docker, Jenkins, GitOps (Flet), Kong API Gateway, Vagrant
+      - label: Observabilidad & Monitoreo
+        details: Prometheus, Grafana, Blackbox Exporter, Alertmanager
+      - label: Infraestructura & SO
+        details: Linux (Ubuntu Server, Debian, CentOS), Apache HTTP Server, Nginx, Bash Scripting, SSH
+      - label: Desarrollo & BD
+        details: Python, PostgreSQL, MySQL, Django REST Framework, PHP, Git/GitHub
+      - label: MLOps & Ciencia de Datos
+        details: Ollama (Local LLMs), LangChain, Pandas, NumPy, Scikit-learn, Jupyter Notebooks
+      - label: Idiomas
+        details: Inglés (B1)
+    experience:
+      - company: Gobierno Digital Michoacán
+        position: Ingeniero DevOps
+        location: Morelia, Michoacán
+        date:
+        start_date: 2026-02
+
+        highlights:
+          - "**Observabilidad & Monitoreo Multi-ambiente:** Diseñé e implementé una arquitectura de monitoreo centralizada utilizando **Prometheus** y **Blackbox Exporter** para sondear la disponibilidad y latencia de aplicativos mediante peticiones HTTP (GET/POST) estructuradas; integré dashboards interactivos en **Grafana** (métricas de latencia, expiración de certificados SSL e históricos de disponibilidad) y automaticé alertas críticas vía **Alertmanager** al correo electrónico, reduciendo significativamente el tiempo medio de respuesta ante incidentes (MTTR)."
+          - "**Automatización de Backups:** Programé y orquesté pipelines automáticos en **Jenkins** integrando scripts de **Bash** para el respaldo periódico y seguro de bases de datos gubernamentales críticas, eliminando la intervención manual y mitigando riesgos de pérdida de datos."
+          - "**Orquestación & CI/CD GitOps:** Desarrollé una herramienta interna con **Flet** y **Kubernetes** bajo la metodología **GitOps** para orquestar la migración fluida de proyectos backend y frontend a un clúster de producción, garantizando tolerancia a fallos, escalabilidad automatizada y alta disponibilidad."
+          - "**Seguridad en API Gateway:** Configuré y desplegué **Kong API Gateway** en un servidor dedicado para centralizar la gestión de tráfico entrante, endureciendo la seguridad mediante paths protegidos y el establecimiento de autenticación mutua TLS (**mTLS**) para blindar la comunicación con los servidores on-premise."
+      - company: Escuela Nacional de Estudios Superiores (ENES), UNAM
+        position: Ingeniero de Software y DevOps (Residencia Profesional)
+        location: Morelia, Michoacán
+        date:
+        start_date: 2025-08
+        end_date: 2025-12
+        highlights:
+          - "**Integración de LLMs & Pipelines NLP:** Implementé flujos de procesamiento de lenguaje natural integrando modelos locales (DeepSeek-R1, Llama 3.1) mediante **Ollama** para automatizar el análisis y generación de feedback sobre documentos PDF."
+          - "**DevOps & CI/CD:** Diseñé pipelines de despliegue automatizado con **Jenkins** y sistematicé entornos de desarrollo reproducibles mediante **Vagrant**, erradicando por completo conflictos de dependencias."
+          - "**Optimización de Inferencia (Prompt Engineering):** Diseñé prompts estructurados (Chain of Thought) y realicé benchmarks de rendimiento en Python, logrando una reducción en los tiempos de respuesta del modelo."
+          - "**Desarrollo de Plugins e Integración:** Desarrollé la capa de comunicación asíncrona (PHP/AJAX) para Moodle, conectando de forma ágil la plataforma educativa con los microservicios de IA."
+      - company: Gobierno Digital Michoacán
+        position: Becario en la Coordinación de Análisis Estratégico
+        location: Morelia, Michoacán
+        date:
+        start_date: 2024-10
+        end_date: 2025-06
+        highlights:
+          - "**Desarrollo RAG:** Co-diseñé un sistema RAG (Retrieval-Augmented Generation) para análisis de grandes volúmenes de documentos, utilizando **Python** y **LangChain** para expandir dinámicamente la base de conocimiento local."
+          - "**Optimización de Bases de Datos:** Refactoricé consultas complejas y rediseñé esquemas relacionales en **PostgreSQL** y **MySQL**, logrando una optimización de tiempos de respuesta de base de datos del 30%."
+    Liderazgo y Actividades:
+      - company: Rama Estudiantil de la IEEE Computer Society
+        position: Miembro y Organizador de Eventos
+        location: Morelia, Michoacán
+        date: 
+        start_date: 2022-08
+        end_date: 2025-07
+        highlights:
+          - "Coordiné Teknhé, evento técnico enfocado en Cloud Computing, Machine Learning y Redes."
+design:
+  theme: sb2nov
+  page:
+    size: us-letter
+    top_margin: 1.5cm
+    bottom_margin: 1.5cm
+    left_margin: 1.5cm
+    right_margin: 1.5cm
+    show_footer: false
+    show_top_note: false
+  typography:
+    font_size:
+      name: 24pt # Ajusta este valor (ej. 20pt, 28pt) según qué tan pequeño lo desees
+    line_spacing: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+  header:
+    alignment: center
+    space_below_name: 0.3cm
+    space_below_connections: 0.2cm
+    connections:
+      phone_number_format: national
+      hyperlink: true
+      show_icons: false
+      separator: "•"
+      space_between_connections: 0.3cm
+  section_titles:
+    type: with_full_line
+    line_thickness: 0.5pt
+    space_above: 0.3cm
+    space_below: 0.2cm
+  sections:
+    allow_page_break: true
+    space_between_regular_entries: 0.25cm
+    space_between_text_based_entries: 0.15cm
+  entries:
+    date_and_location_width: 5.5cm
+    side_space: 0cm
+    space_between_columns: 0.2cm
+    allow_page_break: false
+    highlights:
+      bullet: "•"
+      space_left: 0.4cm
+      space_above: 0.05cm
+      space_between_items: 0.05cm
+      space_between_bullet_and_text: 0.3em
+
+locale:
+  language: spanish
+
+settings:
+  current_date: today
+  render_command:
+    output_folder: rendercv_output
+    pdf_path: "OUTPUT_FOLDER/Jose_Osvaldo_Constantino_Bautista_DevOps_CV.pdf"
+  pdf_title: "José Osvaldo Constantino Bautista - DevOps CV"
