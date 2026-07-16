@@ -91,7 +91,7 @@ design:
     show_top_note: false
   typography:
     font_size:
-      name: 24pt # Ajusta este valor (ej. 20pt, 28pt) según qué tan pequeño lo desees
+      name: 24pt 
     line_spacing: 0.6em
     alignment: justified
     date_and_location_column_alignment: right
