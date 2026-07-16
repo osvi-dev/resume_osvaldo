@@ -1,0 +1,8 @@
+# Osvaldo's Resume
+This repository utilizes a .yml file to generative a resume using Python library called: RenderCV to generate my resume.
+
+## Command to generative Spanish Resume
+rendercv render spanish/Osvaldo_DevOps_CV.yaml
+
+## Command to generative English Resume
+ rendercv render english/Osvaldo_DevOps_CV.yaml
