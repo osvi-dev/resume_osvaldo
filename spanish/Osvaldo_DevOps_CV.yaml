@@ -3,9 +3,12 @@ cv:
   location: Santiago de Querétaro, México
   email: joseconstantino987@gmail.com
   phone: "+52 351 513 1829"
+  social_networks:
+    - network: GitHub
+      username: osvi-dev
   sections:
-    Resume:
-      - Ingeniero en Sistemas Computacionales especializado en **DevOps, Infraestructura y MLOps**. Con experiencia probada en el diseño e implementación de arquitecturas de monitoreo y observabilidad en tiempo real, automatización de infraestructura mediante pipelines CI/CD y administración segura de clústeres de Kubernetes. Enfocado en la alta disponibilidad de servicios, la entrega continua bajo la metodología GitOps y el robustecimiento de la seguridad de red.
+    Resumen:
+      - Ingeniero en Sistemas Computacionales con experiencia en DevOps, Infraestructura y MLOps. Con experiencia en el diseño e implementación de arquitecturas de monitoreo y observabilidad en tiempo real, automatización de infraestructura mediante pipelines CI/CD en Jenkins mediante pipeline bajo el paradigma de GitOps y administración segura de clústeres de Kubernetes. Enfocado en la alta disponibilidad de servicios, la entrega continua bajo la metodología GitOps.
     education:
       - institution: DEV.F
         area: Master en Data Science con IA
@@ -31,25 +34,25 @@ cv:
       - label: Observabilidad & Monitoreo
         details: Prometheus, Grafana, Blackbox Exporter, Alertmanager
       - label: Infraestructura & SO
-        details: Linux (Ubuntu Server, Debian, CentOS), Apache HTTP Server, Nginx, Bash Scripting, SSH
+        details: Linux (Ubuntu Server, Debian, CentOS), Apache Server, Nginx, Bash Scripting, SSH
       - label: Desarrollo & BD
         details: Python, PostgreSQL, MySQL, Django REST Framework, PHP, Git/GitHub
       - label: MLOps & Ciencia de Datos
         details: Ollama (Local LLMs), LangChain, Pandas, NumPy, Scikit-learn, Jupyter Notebooks
       - label: Idiomas
         details: Inglés (B1)
-    experience:
-      - company: Gobierno Digital Michoacán
+    Experiencia Profesional:
+      - company: Gob. Digital, Sec. de Finanzas y Administración
         position: Ingeniero DevOps
         location: Morelia, Michoacán
         date:
         start_date: 2026-02
 
         highlights:
-          - "**Observabilidad & Monitoreo Multi-ambiente:** Diseñé e implementé una arquitectura de monitoreo centralizada utilizando **Prometheus** y **Blackbox Exporter** para sondear la disponibilidad y latencia de aplicativos mediante peticiones HTTP (GET/POST) estructuradas; integré dashboards interactivos en **Grafana** (métricas de latencia, expiración de certificados SSL e históricos de disponibilidad) y automaticé alertas críticas vía **Alertmanager** al correo electrónico, reduciendo significativamente el tiempo medio de respuesta ante incidentes (MTTR)."
-          - "**Automatización de Backups:** Programé y orquesté pipelines automáticos en **Jenkins** integrando scripts de **Bash** para el respaldo periódico y seguro de bases de datos gubernamentales críticas, eliminando la intervención manual y mitigando riesgos de pérdida de datos."
-          - "**Orquestación & CI/CD GitOps:** Desarrollé una herramienta interna con **Flet** y **Kubernetes** bajo la metodología **GitOps** para orquestar la migración fluida de proyectos backend y frontend a un clúster de producción, garantizando tolerancia a fallos, escalabilidad automatizada y alta disponibilidad."
-          - "**Seguridad en API Gateway:** Configuré y desplegué **Kong API Gateway** en un servidor dedicado para centralizar la gestión de tráfico entrante, endureciendo la seguridad mediante paths protegidos y el establecimiento de autenticación mutua TLS (**mTLS**) para blindar la comunicación con los servidores on-premise."
+          - "Diseñé e implementé una arquitectura de monitoreo centralizada utilizando Prometheus y Blackbox Exporter para sondear la disponibilidad y latencia de aplicativos mediante peticiones HTTP (GET/POST) estructuradas; integré dashboards interactivos en Grafana (métricas de latencia, expiración de certificados SSL e históricos de disponibilidad) y automaticé alertas críticas vía Alertmanager al correo electrónico, reduciendo significativamente el tiempo medio de respuesta ante incidentes (MTTR)."
+          - "Programé y orquesté pipelines automáticos en Jenkins siguiendo la metodología GitOps, integrando scripts de Bash para el respaldo periódico y seguro de bases de datos gubernamentales críticas, eliminando la intervención manual y mitigando riesgos de pérdida de datos."
+          - "Colaboré en el desarrollo de una herramienta interna con Flet y Kubernetes bajo la metodología GitOps para orquestar la migración fluida de proyectos backend y frontend a un clúster de Kubernetes, garantizando tolerancia a fallos, escalabilidad automatizada y alta disponibilidad."
+          - "Participé en el diseño e integración de un API Gateway mediante Kong y Kong Deck en un servidor dedicado para centralizar la gestión de tráfico entrante, endureciendo la seguridad mediante paths protegidos y el establecimiento de autenticación mutua TLS (mTLS) para blindar la comunicación con los servidores on-premise."
       - company: Escuela Nacional de Estudios Superiores (ENES), UNAM
         position: Ingeniero de Software y DevOps (Residencia Profesional)
         location: Morelia, Michoacán
@@ -57,10 +60,10 @@ cv:
         start_date: 2025-08
         end_date: 2025-12
         highlights:
-          - "**Integración de LLMs & Pipelines NLP:** Implementé flujos de procesamiento de lenguaje natural integrando modelos locales (DeepSeek-R1, Llama 3.1) mediante **Ollama** para automatizar el análisis y generación de feedback sobre documentos PDF."
-          - "**DevOps & CI/CD:** Diseñé pipelines de despliegue automatizado con **Jenkins** y sistematicé entornos de desarrollo reproducibles mediante **Vagrant**, erradicando por completo conflictos de dependencias."
-          - "**Optimización de Inferencia (Prompt Engineering):** Diseñé prompts estructurados (Chain of Thought) y realicé benchmarks de rendimiento en Python, logrando una reducción en los tiempos de respuesta del modelo."
-          - "**Desarrollo de Plugins e Integración:** Desarrollé la capa de comunicación asíncrona (PHP/AJAX) para Moodle, conectando de forma ágil la plataforma educativa con los microservicios de IA."
+          - "Implementé flujos de procesamiento de lenguaje natural integrando modelos locales (DeepSeek-R1, Llama 3.1) mediante Ollama para automatizar el análisis y generación de feedback sobre documentos PDF."
+          - "Diseñé pipelines de despliegue automatizado con Jenkins y sistematicé entornos de desarrollo reproducibles mediante Vagrant, erradicando por completo conflictos de dependencias."
+          - "Diseñé prompts estructurados (Chain of Thought) y realicé benchmarks de rendimiento en Python, logrando una reducción en los tiempos de respuesta del modelo."
+          - "Desarrollé la capa de comunicación asíncrona (PHP/AJAX) para Moodle, conectando de forma ágil la plataforma educativa con los microservicios de IA."
       - company: Gobierno Digital Michoacán
         position: Becario en la Coordinación de Análisis Estratégico
         location: Morelia, Michoacán
@@ -68,8 +71,8 @@ cv:
         start_date: 2024-10
         end_date: 2025-06
         highlights:
-          - "**Desarrollo RAG:** Co-diseñé un sistema RAG (Retrieval-Augmented Generation) para análisis de grandes volúmenes de documentos, utilizando **Python** y **LangChain** para expandir dinámicamente la base de conocimiento local."
-          - "**Optimización de Bases de Datos:** Refactoricé consultas complejas y rediseñé esquemas relacionales en **PostgreSQL** y **MySQL**, logrando una optimización de tiempos de respuesta de base de datos del 30%."
+          - "Co-diseñé un sistema RAG (Retrieval-Augmented Generation) para análisis de grandes volúmenes de documentos, utilizando Python y LangChain para expandir dinámicamente la base de conocimiento local."
+          - "Refactoricé consultas complejas y rediseñé esquemas relacionales en PostgreSQL y MySQL, logrando una optimización de tiempos de respuesta de base de datos del 30%."
     Liderazgo y Actividades:
       - company: Rama Estudiantil de la IEEE Computer Society
         position: Miembro y Organizador de Eventos
@@ -133,5 +136,5 @@ settings:
   current_date: today
   render_command:
     output_folder: rendercv_output
-    pdf_path: "OUTPUT_FOLDER/Jose_Osvaldo_Constantino_Bautista_DevOps_CV.pdf"
-  pdf_title: "José Osvaldo Constantino Bautista - DevOps CV"
+    pdf_path: "OUTPUT_FOLDER/Resume_Osvaldo_Spanish.pdf"
+  pdf_title: "Resume_Osvaldo_Spanish"
