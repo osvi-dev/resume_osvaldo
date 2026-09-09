@@ -9,7 +9,7 @@ cv:
   sections:
     Resumen:
       - Ingeniero en Sistemas Computacionales con experiencia en DevOps, Infraestructura y MLOps. Con experiencia en el diseño e implementación de arquitecturas de monitoreo y observabilidad en tiempo real, automatización de infraestructura mediante pipelines CI/CD en Jenkins mediante pipeline bajo el paradigma de GitOps y administración segura de clústeres de Kubernetes. Enfocado en la alta disponibilidad de servicios, la entrega continua bajo la metodología GitOps.
-    education:
+    Educación:
       - institution: DEV.F
         area: Master en Data Science con IA
         degree: Bootcamp
@@ -40,7 +40,7 @@ cv:
       - label: MLOps & Ciencia de Datos
         details: Ollama (Local LLMs), LangChain, Pandas, NumPy, Scikit-learn, Jupyter Notebooks
       - label: Idiomas
-        details: Inglés (B1)
+        details: Inglés (B2)
     Experiencia Profesional:
       - company: Gob. Digital, Sec. de Finanzas y Administración
         position: Ingeniero DevOps
@@ -49,8 +49,8 @@ cv:
         start_date: 2026-02
 
         highlights:
-          - "Diseñé e implementé una arquitectura de monitoreo centralizada utilizando Prometheus y Blackbox Exporter para sondear la disponibilidad y latencia de aplicativos mediante peticiones HTTP (GET/POST) estructuradas; integré dashboards interactivos en Grafana (métricas de latencia, expiración de certificados SSL e históricos de disponibilidad) y automaticé alertas críticas vía Alertmanager al correo electrónico, reduciendo significativamente el tiempo medio de respuesta ante incidentes (MTTR)."
-          - "Programé y orquesté pipelines automáticos en Jenkins siguiendo la metodología GitOps, integrando scripts de Bash para el respaldo periódico y seguro de bases de datos gubernamentales críticas, eliminando la intervención manual y mitigando riesgos de pérdida de datos."
+          - "Diseñé e implementé una arquitectura de monitoreo centralizada utilizando Prometheus y Blackbox Exporter para sondear la disponibilidad y latencia de aplicativos mediante peticiones HTTP (GET/POST) estructuradas; integré dashboards interactivos en Grafana (métricas de latencia, expiración de certificados SSL e históricos de disponibilidad) y automaticé alertas críticas vía Alertmanager al correo electrónico, reduciendo significativamente el tiempo medio de respuesta ante incidentes."
+          - "Programé y orquesté pipelines automáticos en Jenkins siguiendo la metodología GitOps, integrando scripts de Bash para el respaldo periódico y seguro de bases de datos, eliminando la intervención manual y mitigando riesgos de pérdida de datos."
           - "Colaboré en el desarrollo de una herramienta interna con Flet y Kubernetes bajo la metodología GitOps para orquestar la migración fluida de proyectos backend y frontend a un clúster de Kubernetes, garantizando tolerancia a fallos, escalabilidad automatizada y alta disponibilidad."
           - "Participé en el diseño e integración de un API Gateway mediante Kong y Kong Deck en un servidor dedicado para centralizar la gestión de tráfico entrante, endureciendo la seguridad mediante paths protegidos y el establecimiento de autenticación mutua TLS (mTLS) para blindar la comunicación con los servidores on-premise."
       - company: Escuela Nacional de Estudios Superiores (ENES), UNAM
@@ -137,4 +137,9 @@ settings:
   render_command:
     output_folder: rendercv_output
     pdf_path: "OUTPUT_FOLDER/Resume_Osvaldo_Spanish.pdf"
+    dont_generate_pdf: false
+    dont_generate_typst: false
+    dont_generate_markdown: true
+    dont_generate_html: true
+    dont_generate_png: true
   pdf_title: "Resume_Osvaldo_Spanish"
