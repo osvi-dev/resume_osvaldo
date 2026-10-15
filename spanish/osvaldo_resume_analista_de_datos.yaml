@@ -1,0 +1,158 @@
+cv:
+  name: José Osvaldo Constantino Bautista
+  location: Morelia, Michoacán, México
+  email: joseconstantino987@gmail.com
+  phone: "+52 351 513 1829"
+  social_networks:
+    - network: GitHub
+      username: osvi-dev
+  sections:
+    Resumen:
+      - Ingeniero en Sistemas Computacionales enfocado en Inteligencia Artificial, Ciencia de Datos y Automatización de Procesos. Experiencia en el desarrollo y despliegue de soluciones con modelos de lenguaje (LLMs, RAG, Ollama), algoritmos de Machine Learning y automatización de pipelines end-to-end con Python, FastAPI, Docker y GitOps. Con sólida capacidad analítica para resolver problemas complejos, optimizar bases de datos SQL y transformar requerimientos operativos en soluciones tecnológicas escalables y automatizadas.
+    Educación:
+      - institution: DEV.F
+        area: Master en Data Science con IA
+        degree: Bootcamp
+        date:
+        start_date: 2026-01
+        end_date: 2026-07
+        location: Remoto, México
+        highlights:
+          - "Formación avanzada en Machine Learning, análisis estadístico y procesamiento de datos con Python."
+
+      - institution: Instituto Tecnológico de Morelia
+        area: Sistemas Computacionales
+        degree: Ingeniería 
+        date: 
+        start_date: 2021-01
+        end_date: 2025-12
+        location: Morelia, Michoacán
+        highlights:
+          - "Instructor del curso: Machine learning for Dummies (Marzo 2024)"
+          - "Miembro del capítulo IEEE Computer Society (Agosto 2022 – Julio 2025)"
+    Habilidades:
+      - label: Inteligencia Artificial & ML
+        details: "Scikit-learn, Ollama (Local LLMs: DeepSeek, Llama 3.1), LangChain, RAG, Prompt Engineering (Chain of Thought), Pandas, NumPy"
+      - label: Desarrollo de Software & APIs
+        details: "Python, FastAPI, Streamlit, Node.js, React, Django REST Framework, PHP, APIs RESTful, Git/GitHub"
+      - label: Análisis de Datos & BD
+        details: "PostgreSQL, MySQL, SQL, Análisis Exploratorio (EDA), Tratamiento de Outliers, Jupyter Notebooks"
+      - label: Automatización & MLOps
+        details: "GitHub Actions (CI/CD), Docker, ArgoCD (GitOps), Kubernetes, Jenkins, Bash Scripting, Linux (Ubuntu, Debian, Centos)"
+      - label: Idiomas
+        details: "Inglés (B2)"
+    Experiencia Profesional:
+      - company: Gob. Digital, Sec. de Finanzas y Administración
+        position: Ingeniero DevOps
+        location: Morelia, Michoacán
+        date:
+        start_date: 2026-02
+
+        highlights:
+          - "Articulé con las áreas de backend y frontend el desarrollo de una plataforma interna de tickets (React/Node.js); optimicé los tiempos de entrega utilizando asistentes de IA generativa en la construcción de componentes y lógica de negocio, automatizando flujos técnicos clave como accesos a BD, aprovisionamiento de entornos y despliegues."
+          - "Lideré la modernización, adaptación y contenedorización de aplicaciones legacy mediante Docker y manifiestos de Kubernetes, colaborando estrechamente con desarrolladores para garantizar tolerancia a fallos, estandarización de entornos y despliegues estables en el clúster."
+          - "Programé y orquesté pipelines automáticos de CI/CD e integración de scripts en Bash bajo la metodología GitOps para el respaldo seguro y recurrente de bases de datos, erradicando intervenciones manuales y riesgos de pérdida de datos."
+          - "Implementé monitoreo proactivo y observabilidad con Prometheus y Grafana, integrando alertas críticas vía Alertmanager para la resolución ágil de incidentes."
+      - company: Escuela Nacional de Estudios Superiores (ENES), UNAM
+        position: Ingeniero de Software y DevOps (Residencia Profesional)
+        location: Morelia, Michoacán
+        date:
+        start_date: 2025-08
+        end_date: 2025-12
+        highlights:
+          - "Implementé flujos de procesamiento de lenguaje natural integrando modelos locales (DeepSeek-R1, Llama 3.1) mediante Ollama para automatizar el análisis y la generación de feedback estructurado sobre documentos PDF."
+          - "Diseñé prompts estructurados (Chain of Thought) y realicé benchmarks de rendimiento en Python, optimizando la precisión de inferencias y reduciendo tiempos de respuesta de los modelos."
+          - "Desarrollé la capa de comunicación asíncrona (PHP/AJAX) para Moodle, conectando de forma ágil la plataforma educativa con microservicios de IA mediante APIs."
+          - "Diseñé pipelines de despliegue automatizado con Jenkins y sistematicé entornos de desarrollo reproducibles mediante Vagrant, erradicando conflictos de dependencias."
+      - company: Gobierno Digital Michoacán
+        position: Becario en la Coordinación de Análisis Estratégico
+        location: Morelia, Michoacán
+        date:
+        start_date: 2024-10
+        end_date: 2025-06
+        highlights:
+          - "Co-diseñé un sistema RAG (Retrieval-Augmented Generation) para el análisis inteligente de grandes volúmenes documentales, utilizando Python y LangChain para consultar dinámicamente la base de conocimiento local."
+          - "Refactoricé consultas complejas y optimicé esquemas relacionales en PostgreSQL y MySQL, logrando una mejora del 30% en tiempos de respuesta de consultas analíticas."
+    Proyectos:
+      - name: Pipeline End-to-End de Predicción Inmobiliaria (Machine Learning & MLOps)
+        date:
+        highlights:
+          - "Desarrollé una solución de predicción de precios inmobiliarios integrando modelo de Scikit-learn, backend de inferencia en FastAPI y frontend interactivo en Streamlit."
+          - "Diseñé un pipeline automatizado en GitHub Actions con disparadores manuales para limpieza de datos, entrenamiento del modelo, construcción de imagen Docker y push a Docker Hub."
+          - "Configuré despliegue continuo en clúster local gestionado con ArgoCD y manifiestos de Kubernetes bajo filosofía GitOps."
+      - name: Análisis y Proyección de Mercado de Vehículos Eléctricos (Data Science)
+        date:
+        highlights:
+          - "Cubrí el ciclo completo de ciencia de datos: recolección, limpieza exhaustiva, detección y tratamiento estadístico de outliers, y visualización gráfica de variables."
+          - "Implementé clustering con K-Means para segmentación de mercado y modelé la evolución de adopción mediante Regresión Exponencial con Scikit-learn."
+          - "Evalué el rendimiento en set de prueba (2021–2023) con métricas formales: R² Score, Error Absoluto Medio (MAE) y Raíz del Error Cuadrático Medio (RMSE), generando interpretación estratégica de los datos."
+    Liderazgo y Actividades:
+      - company: Rama Estudiantil de la IEEE Computer Society
+        position: Miembro y Organizador de Eventos
+        location: Morelia, Michoacán
+        date: 
+        start_date: 2022-08
+        end_date: 2025-07
+        highlights:
+          - "Coordiné Teknhé, evento técnico enfocado en Cloud Computing, Inteligencia Artificial, Machine Learning y Redes."
+design:
+  theme: sb2nov
+  page:
+    size: us-letter
+    top_margin: 1.5cm
+    bottom_margin: 1.5cm
+    left_margin: 1.5cm
+    right_margin: 1.5cm
+    show_footer: false
+    show_top_note: false
+  typography:
+    font_size:
+      name: 24pt 
+    line_spacing: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+  header:
+    alignment: center
+    space_below_name: 0.3cm
+    space_below_connections: 0.2cm
+    connections:
+      phone_number_format: national
+      hyperlink: true
+      show_icons: false
+      separator: "•"
+      space_between_connections: 0.3cm
+  section_titles:
+    type: with_full_line
+    line_thickness: 0.5pt
+    space_above: 0.3cm
+    space_below: 0.2cm
+  sections:
+    allow_page_break: true
+    space_between_regular_entries: 0.25cm
+    space_between_text_based_entries: 0.15cm
+  entries:
+    date_and_location_width: 5.5cm
+    side_space: 0cm
+    space_between_columns: 0.2cm
+    allow_page_break: false
+    highlights:
+      bullet: "•"
+      space_left: 0.4cm
+      space_above: 0.05cm
+      space_between_items: 0.05cm
+      space_between_bullet_and_text: 0.3em
+
+locale:
+  language: spanish
+
+settings:
+  current_date: today
+  render_command:
+    output_folder: rendercv_output
+    pdf_path: "OUTPUT_FOLDER/osvaldo_resume_analista_de_datos.pdf"
+    dont_generate_pdf: false
+    dont_generate_typst: false
+    dont_generate_markdown: true
+    dont_generate_html: true
+    dont_generate_png: true
+  pdf_title: "osvaldo_resume_analista_de_datos"
